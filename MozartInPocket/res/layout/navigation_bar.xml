@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/navigation_bar"
+             android:background="@null" 
+             android:layout_width="match_parent" 
+             android:layout_height="wrap_content" >
+ 
+             <FrameLayout 
+                android:background="@null" 
+                android:layout_width="match_parent" 
+                android:layout_height="10000dp" >
+             </FrameLayout>
+             
+             <RadioGroup  
+                android:id="@+id/main_tab_group"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="bottom"  
+                android:gravity="bottom"  
+                android:background="@drawable/bottom"
+                android:orientation="horizontal" >    
+
+                <RadioButton android:id="@+id/main_tab_compose" 
+                        android:layout_weight="1"
+                        android:text="@string/compose" 
+                        style="@style/TabButton" />
+
+                <RadioButton android:id="@+id/main_tab_post" 
+                        android:layout_weight="1"
+                        android:text="@string/post" 
+                        style="@style/TabButton" />
+
+                <RadioButton android:id="@+id/main_tab_share"
+                        android:layout_weight="1" 
+                        android:text="@string/share"  
+                        style="@style/TabButton" />
+
+                <RadioButton android:id="@+id/main_tab_music_list" 
+                        android:layout_weight="1"
+                        android:text="@string/list"  
+                        style="@style/TabButton" />      
+
+                <RadioButton android:id="@+id/main_tab_music_cloud" 
+                        android:layout_weight="1"
+                        android:text="@string/cloud" 
+                        style="@style/TabButton" />              
+
+             </RadioGroup> 
+
+             <TextView  
+                android:id="@+id/main_tab_new_message"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_gravity="center_horizontal|top"  
+                android:layout_marginLeft="60dp"  
+                android:layout_marginTop="1dp"  
+                android:gravity="center"  
+                android:textColor="#ffffff"  
+                android:textSize="12sp"  
+                android:visibility="gone" /> 
+
+        </FrameLayout>

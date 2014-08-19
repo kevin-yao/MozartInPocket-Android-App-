@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/musics_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicsDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment_musicname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment_authorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtView_music_file_detail_fragment_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_edit_music_detail_fragment"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/TODO"
+                android:background="@drawable/icon_edit">
+            </Button>
+
+            <Button
+                android:id="@+id/button_delete_music_detail_fragment"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="@string/TODO"
+                android:background="@drawable/icon_delete">
+            </Button>
+            
+            <Button
+                android:id="@+id/button_play_music_detail_fragment"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/TODO"
+                android:background="@drawable/icon_play"
+                >
+            </Button>
+                        
+        </LinearLayout>
+        <!-- Progress Bar/Seek bar -->
+    	<SeekBar
+             android:id="@+id/seek_bar_progress"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginBottom="20dp"
+             android:paddingLeft="6dp"
+             android:paddingRight="6dp"/>
+        
+    </LinearLayout>
+
+</ScrollView>

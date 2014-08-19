@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mozart In Pocket</string>
+    <string name="title_activity_post">Post</string>
+    <string name="title_activity_music_post">MusicPost</string>
+    <string name="title_activity_do_post">DoPostActivity</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_do_share">DoShareActivity</string>
+    <string name="title_activity_music_in_cloud">Music In Cloud</string>
+    <string name="title_activity_compose">Compose Music</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_musics_detail">musics Detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="mozart_in_pocket">Mozart in Pocket</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">Welcome!</string>
+    <string name="real_name">Name: </string>
+    <string name="age">Age: </string>
+    <string name="gender">Gender: </string>
+	<string name="TODO">TODO</string>
+    <string-array name="gender_array">
+        <item>Girl</item>
+        <item>Boy</item>
+    </string-array>
+    <string-array name="change_photo_array">
+        <item>Choose from local album</item>
+        <item>Take a picture</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="Amanda">Amanda</string>
+    <string name="email">Email: </string>
+    <string name="interest">Interests: </string>
+    <string name="add">Add</string>
+    <string name="interest_tag">My Interest Tags:\n</string>
+    <string name="music_style">My Music Styles:</string>
+    <string name="style1">Classical</string>
+    <string name="style2">Jazz</string>
+    <string name="style3">Rock</string>
+    <string name="style4">Baroque</string>
+    <string name="style5">Electronic</string>
+    <string name="style6">Pop</string>
+    <string name="style7">Instrumental</string>
+    <string name="style8">Indie</string>
+    <string name="style9">Folk</string>
+    <string name="style10">Funk</string>
+    <string name="style11">Metal</string>
+    <string name="style12">Punk</string>
+    <string name="update">Update</string>
+    <string name="music_list">MusicList</string>
+    <string name="music_detail">MusicDetail</string>
+    <string name="view_list_settings">Settings</string>
+
+    <!-- strings used in layout listview_head.xml -->
+    <string name="head_update_tips">Pull to Refresh</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="release_to_refresh">Release to Refresh</string>
+    <string name="refreshing">Loading......</string>
+
+    <!-- strings used in layout adapter_item.xml -->
+    <string name="comment">Comment:</string>
+    <string name="not_updated_yet">Not update yet</string>
+    <string name="time_error">Time Error</string>
+    <string name="updated_just_now">Just updated</string>
+    <string name="updated_at">Last updated : %1$s</string>
+    <string name="title_activity_take_photo">TakePhotoActivity</string>
+    <string name="change_photo">Change your profile picture</string>
+    <string name="title_fragmentActivity_tabs">Tabs</string>
+    
+    <string name="compose">Compose</string>
+    <string name="post">Post</string>
+    <string name="share">Share</string>
+    <string name="list">Music List</string>
+    <string name="cloud">Music in Cloud</string>
+    
+    <string name="icon_image">Tab</string>
+    <string name="screen_shot">Screenshot</string>
+    <string name="user_profile">My Profile</string>
+
+</resources>
